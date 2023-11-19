@@ -11,6 +11,15 @@ This is an internal hack for **Assault Cube v1.2**. Works only on Windows as it 
 ![Screenshot 2023-09-18 143234](https://github.com/Edveika/AssaultCube-Internal/assets/113787144/441bdde1-ae6f-4c91-b637-cc8212ed7c66)
 ![Screenshot 2023-09-18 143245](https://github.com/Edveika/AssaultCube-Internal/assets/113787144/3a536e39-4500-4e52-8a23-5b6b7876fc60)
 
+## Contents
+- [Features](#features)
+- [Controls](#controls)
+- [Running the hack](#running-the-hack)
+- [Dependencies](#dependencies)
+- [Compiling](#compiling-from-source)
+- [Credits](#credits)
+- [License](#license)
+
 ## Features
 
 * Aimbot
@@ -32,13 +41,35 @@ This is an internal hack for **Assault Cube v1.2**. Works only on Windows as it 
 * Menu
 * Unhooking
 
-## How to use
+## Controls
 
-1. Download the hack from releases or build it using Visual Studio
-2. Inject the DLL into the game's memory - ac_client.exe
-3. To open/close menu - press insert
-4. To activate a feature press F(number of the feature on the menu)
-5. To close the hack press delete
+* Insert to show/hide menu
+* Delete to unhook the hack(uninject/exit)
+* F(insert feature number here from the menu) to activate features
+
+## Running the hack
+
+1. Download ACInternal.zip from the [releases](https://github.com/Edveika/AssaultCube-Internal/releases/tag/1.0)
+2. Extract the .zip file
+3. Get some kind of injector. I recommend the [GH injector](https://github.com/Broihon/GH-Injector-Library)
+4. Select ac_client.exe as process in the injector settings
+5. Select .dll file that you extracted with your injector to inject it into game's memory
+6. Click inject
+
+**NOTE: WORKS ONLY ON ASSAULT CUBE V1.2**
+
+## Dependencies
+
+``OpenGL``
+
+``WindowsAPI``
+
+## Compiling from source
+
+1. Git clone this repo to your local machine
+2. Open .sln file using visual studio
+3. This hack uses OpenGL to draw the ESP and the menu, make sure you have it installed and included into the project
+4. Click compile
 
 ## Credits
 
