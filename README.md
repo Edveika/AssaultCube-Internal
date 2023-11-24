@@ -1,8 +1,8 @@
-## Disclaimer
+## ⚠️ Disclaimer
 
 This project serves a learning purpose. **I DO NOT ENCOURAGE CHEATING ONLINE**, it ruins the game for other people.
 
-## AssaultCube-Internal
+## 🔫 AssaultCube-Internal
 
 This is an internal hack for **Assault Cube v1.2**. Works only on Windows as it heavily relies on the ```<Windows.h>``` library
 
@@ -11,7 +11,7 @@ This is an internal hack for **Assault Cube v1.2**. Works only on Windows as it 
 ![Screenshot 2023-09-18 143234](https://github.com/Edveika/AssaultCube-Internal/assets/113787144/441bdde1-ae6f-4c91-b637-cc8212ed7c66)
 ![Screenshot 2023-09-18 143245](https://github.com/Edveika/AssaultCube-Internal/assets/113787144/3a536e39-4500-4e52-8a23-5b6b7876fc60)
 
-## Contents
+## 📔 Contents
 - [Features](#features)
 - [Controls](#controls)
 - [Running the hack](#running-the-hack)
@@ -20,7 +20,7 @@ This is an internal hack for **Assault Cube v1.2**. Works only on Windows as it 
 - [Credits](#credits)
 - [License](#license)
 
-## Features
+## 🔥 Features
 
 * Aimbot
   * Team check
@@ -41,13 +41,13 @@ This is an internal hack for **Assault Cube v1.2**. Works only on Windows as it 
 * Menu
 * Unhooking
 
-## Controls
+## 🕹️ Controls
 
 * Insert to show/hide menu
 * Delete to unhook the hack(uninject/exit)
 * F(insert feature number here from the menu) to activate features
 
-## Running the hack
+## 💉 Running the hack
 
 1. Download ACInternal.zip from the [releases](https://github.com/Edveika/AssaultCube-Internal/releases/tag/1.0)
 2. Extract the .zip file
@@ -58,23 +58,23 @@ This is an internal hack for **Assault Cube v1.2**. Works only on Windows as it 
 
 **NOTE: WORKS ONLY ON ASSAULT CUBE V1.2**
 
-## Dependencies
+## 📑 Dependencies
 
 ``OpenGL``
 
 ``WindowsAPI``
 
-## Compiling from source
+## 🖥️ Compiling from source
 
 1. Git clone this repo to your local machine
 2. Open .sln file using visual studio
 3. This hack uses OpenGL to draw the ESP and the menu, make sure you have it installed and included into the project
 4. Click compile
 
-## Credits
+## 🤝 Credits
 
 This project was made by the help of [guidedhacking](https://www.guidedhacking.com)
 
-## License
+## 📜 License
 
 This project is licensed under the GPL v2 [LICENSE](LICENSE).
